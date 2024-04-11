@@ -2,7 +2,7 @@
 
 This is a dark-light contrast website for a portfolio - It is related to being a web developer - It includes a bit of custom JavaScript for the typewriter effect and uses a script called "Lightbox" for the project modals - From Brad Traversy's 'Bootstrap 5 From Scratch | Build 5 Modern Websites' course
 
-Try out the app :) - https://bs5-portfolio-website-fc.netlify.app/
+Check out the site :) - https://bs5-portfolio-website-fc.netlify.app/
 
 <img src="./images/screen.png" />
 
