@@ -2,9 +2,9 @@
     background: #151515 url('../images/intro-bg.jpg') no-repeat center center;  /* The background colour (#151515) will be displayed as a fallback (untill the image has loaded) */
     background-size: cover;
     background-attachment: fixed;
-  }
+}
   
-  .header::after {  /* To add an overlay that the image is not so bright */
+.header::after {  /* To add an overlay that the image is not so bright */
     content: '';
     position: absolute;
     top: 0;     /* Start position */
@@ -12,27 +12,34 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
-  }
+}
   
-  .header .text-container {
+.header .text-container {
     z-index: 10;    /* To just set it to something height - To have the text container over the overlay which lays over the bg image */
-  }
-  
-  .header .roles {
-    font-family: 'lora-regular', serif;
-  }
-  
-  .header .social {
-    bottom: 50px;   /* To position the social icons 50px above the bottom */
-  }
+}
 
-  @media (max-width: 767px) {
+.header .roles {
+    font-family: 'lora-regular', serif;
+}
+
+.header .social {
+    bottom: 50px;   /* To position the social icons 50px above the bottom */
+}
+
+.about-img {
+    width: 200px;
+}
+
+@media (max-width: 767px) {
     .header .social i {
-      font-size: 30px;
+        font-size: 30px;
     }
-  
+
     .header .roles {
-      font-size: 18px !important;
+        font-size: 18px !important;
     }
-  
-  }
+
+    .about-content {
+        flex-direction: column;
+      }
+}
